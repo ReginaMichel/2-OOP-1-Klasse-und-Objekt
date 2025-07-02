@@ -8,5 +8,8 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
         Car car = new Car();
         car.startCar();
+        Car car2 = new Car();
+        car2.accelerate();
+        car2.showSpeed();
     }
 }
